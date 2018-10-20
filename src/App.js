@@ -65,13 +65,17 @@ class App extends Component {
     return (
       <div className="App">
         <div className="shop">
-          <div  className="block">
+
+          { /* Add a new entry */ }
+          <div className="block">
             <h2>Shopping list</h2>
-             <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
               <input type="text" value={this.state.inputValue} onChange={this.handleChange} />
               <input type="submit" value="add" />
             </form>
-          </div>  
+          </div>
+
+          { /* Modify an entry */ }
           <div className="block">
             { this.state.todos.map((todo, i) =>
               <ul key={i}>
@@ -84,6 +88,7 @@ class App extends Component {
                 </li>
               </ul>) }
           </div>
+
         </div>
       </div>
     )
