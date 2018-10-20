@@ -8,10 +8,10 @@ const apiKey    = process.env.REACT_APP_API_KEY || "AIzaSyBgjQ-aMPoMk4y802oM57HU
 const projectId = process.env.REACT_APP_PROJECT_ID || "yo-todo-d1229"
 
 var config = {
-    apiKey: "AIzaSyBgjQ-aMPoMk4y802oM57HUwAFSEBBlk10",
+    apiKey: apiKey,
     authDomain: "yo-todo-d1229.firebaseapp.com",
     databaseURL: "https://yo-todo-d1229.firebaseio.com",
-    projectId: "yo-todo-d1229",
+    projectId: projectId,
     storageBucket: "yo-todo-d1229.appspot.com",
     messagingSenderId: "471773751736"
   };
