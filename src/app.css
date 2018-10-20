@@ -1,0 +1,30 @@
+body{
+	background-color: #304055;
+	color: #FFF;
+	font-family: Inconsolata, Monaco, Consolas, "Courier New", Courier, monospace;
+	line-height: 1.5;
+	tab-size: 4;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.shop{
+	border: 2px solid #FFF;
+	padding: 15px;
+	background-color: #496283;
+}
+
+
+.block {
+	background-color: #303040;
+	border: 1px solid white;
+	padding:10px;
+	padding-right: 25px;
+	margin: 5px;
+}
+
+.archived {
+	text-decoration: line-through;
+}
