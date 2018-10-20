@@ -8,7 +8,7 @@ const apiKey = process.env.REACT_APP_API_KEY || "AIzaSyA0d-9Xa0sIbn75OdH8EfKg2m_
 const projectId = process.env.REACT_APP_PROJECT_ID || "todos-c769e"
 
 var config = {
-    apiKey: "AIzaSyBgjQ-aMPoMk4y802oM57HUwAFSEBBlk10",
+    apiKey: apiKey,
     authDomain: "yo-todo-d1229.firebaseapp.com",
     databaseURL: "https://yo-todo-d1229.firebaseio.com",
     projectId: "yo-todo-d1229",
