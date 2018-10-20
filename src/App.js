@@ -4,11 +4,11 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import "./app.css"
 
-const apiKey = process.env.REACT_APP_API_KEY || "AIzaSyA0d-9Xa0sIbn75OdH8EfKg2m_RxSVJORg"
-const projectId = process.env.REACT_APP_PROJECT_ID || "todos-c769e"
+const apiKey    = process.env.REACT_APP_API_KEY || "AIzaSyBgjQ-aMPoMk4y802oM57HUwAFSEBBlk10"
+const projectId = process.env.REACT_APP_PROJECT_ID || "yo-todo-d1229"
 
 var config = {
-    apiKey: apiKey,
+    apiKey: "AIzaSyBgjQ-aMPoMk4y802oM57HUwAFSEBBlk10",
     authDomain: "yo-todo-d1229.firebaseapp.com",
     databaseURL: "https://yo-todo-d1229.firebaseio.com",
     projectId: "yo-todo-d1229",
